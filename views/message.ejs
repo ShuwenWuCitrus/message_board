@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Message Detail</title>
+  </head>
+  <body>
+    <h1>Message from <%= message.user %></h1>
+    <p><%= message.text %></p>
+    <p><em>Added on <%= message.added.toDateString() %></em></p>
+    <a href="/">Back to Messages</a>
+  </body>
+</html>
